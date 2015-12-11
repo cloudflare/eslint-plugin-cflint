@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin-cflint",
+  "description": "ESLint rules for CloudFlare",
+  "author": "Terin Stock <terinjokes@gmail.com> (https://terinstock.com/)",
+  "bugs": {
+    "url": "https://github.com/cloudflare/eslint-plugin-cflint/issues"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "mocha": "^2.0.1",
+    "semantic-release": "^4.3.5",
+    "xo": "^0.11.2"
+  },
+  "homepage": "https://github.com/cloudflare/eslint-plugin-cflint#readme",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudflare/eslint-plugin-cflint.git"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run unit-test",
+    "unit-test": "mocha tests/*.js",
+    "lint": "xo",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "files": [
+    "rules/",
+    "docs"
+  ],
+  "xo": {
+    "space": true
+  }
+}
