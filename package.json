@@ -9,7 +9,7 @@
     "eslint": "^1.10.3",
     "mocha": "^2.0.1",
     "semantic-release": "^4.3.5",
-    "xo": "^0.11.2"
+    "xo": "^0.12.0"
   },
   "homepage": "https://github.com/cloudflare/eslint-plugin-cflint#readme",
   "keywords": [
