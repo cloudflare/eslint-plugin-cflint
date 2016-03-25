@@ -6,7 +6,7 @@
     "url": "https://github.com/cloudflare/eslint-plugin-cflint/issues"
   },
   "devDependencies": {
-    "eslint": "^2.0.0",
+    "eslint": "^2.5.0",
     "eslint-config-xo-space": "^0.11.0",
     "mocha": "^2.0.1",
     "semantic-release": "^4.3.5"
